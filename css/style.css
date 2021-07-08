@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+  }
+#accessibility{
+    margin-left: 95%;
+}
+
+li {
+    display: inline;
+    color: white;
+  }
+p {
+    color:white;
+  }
+ul > li img {
+    width: 35px;
+    height: 52.25px;
+    border: 2px white;
+}
+.container > img {
+    margin: 30px;
+}
+.container > div {
+    margin: 30px;
+}
+.imgtext {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredbelow {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    align-items: baseline;
+    ;
+}
+.navigation > img {
+    position: absolute;
+    margin-left: 5%;
+}
+.container {
+    padding-top: 75px;
+    padding-bottom: 125px;
+}
+.footercontainer{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+hr {
+    width: 90%;
+}
+#letsconnect {
+    
+    font-size: 24px;
+    margin: 1px;
+}
+#copyright {
+    font-size: 10px;
+    margin: 1px;
+}
+#number{
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+}
+#location{
+    display: inline-block;
+    height: 5px;
+    margin-left: 10px;
+}
+.number > img{
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.location > img{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.number, .location{
+    text-align: center;
+    margin: 5px;
+}
+.socialmedia {
+    display: flex;
+    margin: 6px;
+}
+.sm {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+}
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;  
+    align-items: center;
+}
+li:hover{
+    color: #EB34EE;
+    cursor:pointer;
+} 
+#logo:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+.containerabout{
+    padding-top: 175px;
+    padding-bottom: 150px; 
+}
+.mainelementsAbout{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+#titleAbout{
+    color:white;
+}
+.centeredAbout{
+    color: white;
+}
+.centeredbelowAbout{
+    color: white;
+}
+.imgtextAbout{
+    Display: flex;
+    justify-content: center;
+    position: relative;
+
+    color: white;
+}
+.mainelementsAbout > img{
+   margin: 30px;
+}
+.mainelementsAbout > div{
+    margin: 30px;
+}
+.centeredAbout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredbelowAbout{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}

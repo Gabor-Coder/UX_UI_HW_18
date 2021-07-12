@@ -19,6 +19,7 @@ ul > li img {
 }
 .container > img {
     margin: 30px;
+    height: 450px;
 }
 .container > div {
     margin: 30px;
@@ -28,6 +29,9 @@ ul > li img {
     text-align: center;
     color: white;
 }
+.imgtext > img{
+    margin-top: 30px;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -36,7 +40,7 @@ ul > li img {
 }
 .centeredbelow {
     position: absolute;
-    top: 55%;
+    top: 58%;
     left: 55%;
 }
 .container {
@@ -58,8 +62,10 @@ ul {
 }
 .container {
     padding-top: 75px;
-    padding-bottom: 125px;
+    padding-bottom: 75px;
 }
+
+
 .footercontainer{
     margin-left: 5%;
     margin-right: 5%;
@@ -126,9 +132,11 @@ li:hover{
     transform: scale(1.2);
     cursor:pointer;
 }
+
+
 .containerabout{
-    padding-top: 175px;
-    padding-bottom: 150px; 
+    padding-top: 125px;
+    padding-bottom: 100px; 
 }
 .mainelementsAbout{
     display: flex;
@@ -138,6 +146,8 @@ li:hover{
 }
 #titleAbout{
     color:white;
+    font-size: 30px;
+    margin-left: 10%;
 }
 .centeredAbout{
     color: white;
@@ -146,11 +156,12 @@ li:hover{
     color: white;
 }
 .imgtextAbout{
-    Display: flex;
-    justify-content: center;
     position: relative;
-
+    text-align: center;
     color: white;
+}
+.imgtextAbout > img{
+    padding-top: 150px;
 }
 .mainelementsAbout > img{
    margin: 30px;
@@ -166,6 +177,176 @@ li:hover{
 }
 .centeredbelowAbout{
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 55%;
+}
+
+
+.containerSkills{
+    padding-top: 125px;
+    padding-bottom: 100px; 
+}
+.mainelementsSkills{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+#titleSkills{
+    color:white;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.centeredSkills{
+    text-align: center;
+    color: white;
+}
+.centeredbelowSkills{
+    color: white;
+}
+.imgtextSkills{
+    Display: inline-block;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+.imgtextSkills > img{
+    padding-top: 150px;
+}
+.mainelementsSkills > img{
+    margin: 30px;
+}
+.mainelementsSkills > div{
+    margin: 30px;
+}
+.centeredSkills{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredbelowSkills{
+    position: absolute;
+    top: 58%;
+    left: 45%;
+}
+
+
+#titleResume{
+    color:white;
+    margin-left: 10%;
+}
+.containerResume{
+    padding-top: 125px;
+    padding-bottom: 100px; 
+}
+.mainelementsResume{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+#titleResume{
+    color:white;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.centeredResume{
+    color: white;
+}
+.centeredbelowResume{
+    color: white;
+}
+.imgtextResume{
+    Display: inline-block;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+.imgtextResume > img{
+    padding-top: 600px;
+}
+.mainelementsResume > img{
+    margin: 30px;
+}
+.mainelementsResume > div{
+    margin: 30px;
+}
+.centeredResume{
+    text-align: center;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredbelowResume{
+    position: absolute;
+    top: 54%;
+    left: 55%;
+}
+
+
+#titleWork{
+    color:white;
+    font-size: 30px;
+    margin-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.containerWork{
+    padding: 10px;
+    margin: 10px;
+}
+.mainelementsWork{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.audition{
+    padding: 5px;
+    margin: 5px;
+}
+.treasury{
+    padding: 5px;
+    margin: 5px;
+}
+#auditionwireframe{
+    position: relative;
+    left: 65%;
+}
+#auditiondescription{
+    margin-left: 280px;
+    margin-bottom: 120px;
+}
+#treasurywireframe{
+    position: relative;
+    left: 10%;
+}
+#treasurydescription{
+    margin-left: -50px;
+    margin-bottom: 120px;
+}
+.btn{
+    width: 150px;
+    height: 25px;
+    background-color: #EB34EE;
+    color: white;
+    border-radius: 50cm;
+}
+.treasury > .btn{
+    margin-left: -550px;
+}
+.audition > .btn{
+    margin-left: -400px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    #titleAbout {
+        font-size: 30px;
+    }
 }

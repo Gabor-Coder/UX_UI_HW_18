@@ -3,8 +3,8 @@ body{
   }
 #accessibility{
     margin-left: 95%;
+    position: absolute;
 }
-
 li {
     display: inline;
     color: white;
@@ -15,7 +15,6 @@ p {
 ul > li img {
     width: 35px;
     height: 52.25px;
-    border: 2px white;
 }
 .container > img {
     margin: 30px;
@@ -46,7 +45,6 @@ ul > li img {
 .container {
     display: flex;
     justify-content: space-evenly;
-    
 }
 ul {
     display: flex;
@@ -54,11 +52,6 @@ ul {
     padding: 5px;
     margin: 5px;
     align-items: baseline;
-    ;
-}
-.navigation > img {
-    position: absolute;
-    margin-left: 5%;
 }
 .container {
     padding-top: 75px;
@@ -124,6 +117,8 @@ hr {
     width: 70%;  
     align-items: center;
 }
+
+
 li:hover{
     color: #EB34EE;
     cursor:pointer;
